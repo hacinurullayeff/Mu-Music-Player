@@ -87,3 +87,7 @@ function nextSong(){
 
 prevBtn.addEventListener('click', prevSong)
 nextBtn.addEventListener('click', nextSong)
+
+loadSong(songs[songIndex])
+
+window.onload = playSong
